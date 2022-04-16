@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16.0 FATAL_ERROR)
 
-add_subdirectory(SimpleXML Main.c)
+add_executable(SimpleXML Main.c)
 
 # Add in MesoXML
 add_subdirectory(../../ MesoXML)
